@@ -1,0 +1,83 @@
+body{
+	background: black;
+	letter-spacing:1.5em;
+	color:white;
+}
+
+img{
+	position:absolute;
+	top:0px;
+	bottom:0px;
+	left: 400px;
+	right:0px;
+	margin:auto;
+	animation-name:pacman;
+	width: 15%;
+	animation: 2s infinite  pacman;
+	  
+ 
+}
+
+
+@keyframes pacman{
+
+  from {
+    margin-left:0%;
+    width:30%
+  }
+  
+
+}
+
+
+.circulo {
+	position: relative; 
+     width: 100px;
+     height: 100px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: white;
+     left: 400px;
+     right: 0px;
+     top: 208px;
+}
+
+.circulo1 {
+	position: relative; 
+     width: 100px;
+     height: 100px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: white;
+     left: 795px;
+     right: 0px;
+     top: 110px;
+}
+
+.circulo2 {
+	position: relative; 
+     width: 100px;
+     height: 100px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: white;
+     left: 663px;
+     right: 0px;
+     top: 10px;
+}
+
+.circulo3 {
+	position: relative; 
+     width: 100px;
+     height: 100px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: white;
+     left: 530px;
+     right: 0px;
+     top: -90px;
+}
